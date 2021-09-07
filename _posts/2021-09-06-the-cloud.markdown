@@ -113,7 +113,7 @@ Monthly cost: $83,57
 #### Summary
 
 Although the pricing and spec doesn't differ much between the giants and the smaller cloud service providers, the smaller providers lack in support, developer tools and distribution tools.
-AWS focus on the private cloud rather than hybrid or private cloud, Amazon has a huge array of available services and a wide network of worldwide datacenters.
+AWS focus on the private cloud rather than hybrid or public cloud, Amazon has a huge array of available services and a wide network of worldwide datacenters.
 Azure has its expertise in the hybrid cloud and is particularly strong in SaaS.
 Google cloud has it's expertise in AI, machine learning and data analytics.
 

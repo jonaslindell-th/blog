@@ -11,17 +11,33 @@ categories: jekyll update
 
 The cloud can be described as a data centre, containing multiple racks of identical hardware where deployments, updates, investigations and management processes are automated. The hardware contains software and databases that runs servers which can be accessed over the internet. A benefit of using cloud computing, users and companies do not have to manage physical servers themselves or run software applications on their own machines.
 
-Cloud computing is possible due to virtualization, allowing the creation of a simulated computer that behaves as if it were a phyical computer with its own hardware.
+The basic foundation of the cloud consists of some sort of infrastructure like computers, storage devices and a network.
+On top of that comes a platform (operating system) e.g linux or windows, databases, identification or queue systems.
+And on top of that you have your application which runs on the platform of your choosing.
 
-![cloudimage](https://github.com/jonaslindell-th/blog/blob/main/img/what-is-the-cloud.png)
+Cloud computing is possible due to virtualization, allowing the creation of a simulated computer that behaves as if it were a physical computer with its own hardware and software which you can communicate with externally from your computer, laptop or phone.
+
+![cloudimage](/img/what-is-the-cloud.png)
 
 ### The three types of main service models in cloud computing
 
-1. Platform as a service (PaaS) is a third-party cloud computing model where the provider delivers hardware and software tools to users over the internet.
-   Most likely these tools are used for app development. The PaaS provider hosts the hardware and software on its own infrastructure.
+1. Platform as a service (PaaS) is a cloud computing model where the provider delivers hardware and software tools to users over the internet.
+   Most likely these tools are used for app development. The PaaS provider hosts the hardware and software, including the database on its own infrastructure and platform so you can focus on developing and installing your application. Payment is often per second.
 
-2. Infrastructure as a service (IaaS) is a type of cloud computing service that offers essential compute, storage, and networking resources on demand, on a pay-as-you-go basis. IaaS lets you bypass the cost and complexity of buying and managing physical servers and datacenter infrastructure.
+2. Infrastructure as a service (IaaS) leaves you with a virtual machine, where you provide it with a operating system, database and application. You have to provide updates, dependencies and optimization for your operating system and application and setup the database. IaaS lets you bypass the cost and complexity of buying and managing physical servers and datacenter infrastructure. Payment is often per minute.
 
 3. Software as a service (SaaS) allows users to connect to and use cloud-based apps over the Internet. Common examples are email, calendaring, and office tools like Microsoft office 365.
 
-   SaaS provides a complete software solution that you purchase on a pay-as-you-go basis from a cloud service provider. You rent the use of an app for your organization, and your users connect to it over the Internet, usually with a web browser. All of the underlying infrastructure, middleware, app software, and app data are located in the service provider’s data center. The service provider manages the hardware and software, and with the appropriate service agreement, will ensure the availability and the security of the app and your data as well. SaaS allows your organization to get quickly up and running with an app at minimal upfront cost.
+   SaaS provides a complete software solution that you purchase on a pay-as-you-go basis from a cloud service provider. You rent the use of an app for your organization, and your users connect to it over the Internet, usually with a web browser. All of the underlying infrastructure, middleware, app software, and app data are located in the service provider’s data center. The service provider manages the hardware and software, and with the appropriate service agreement, will ensure the availability and the security of the app and your data as well. SaaS allows your organization to get quickly up and running with an app at minimal upfront cost. Payment varies between month, year or transaction.
+
+### The pros and cons for using the cloud
+
+#### A few pros using a cloud service
+
+Using the cloud enables scaling your server to meet for your needs, perhaps your server is running slow due to a workload overload. If your servers were on-premises it would take a significally longer time to upgrade your system, waiting for new or more hardware and setting them up, with a cloud service you could improve your hardware with just a few clicks in the browser.
+
+It also offers flexible payment, meaning you only pay for what you use perhaps per hour or on a monthly.
+
+A cloud service lets your company focus on it's main purpose, leaving the server, hardware, tools, logs and maintainance to the cloud provider for you to choose and use as you wish.
+
+Experimenting with hardware is almost free.

@@ -104,3 +104,7 @@ Although the pricing and spec doesn't differ much between the giants and the sma
 AWS focus on the private cloud rather than hybrid or private cloud, Amazon has a huge array of available services and a wide network of worldwide datacenters.
 Azure has its expertise in the hybrid cloud and is particularly strong in SaaS.
 Google cloud has it's expertise in AI, machine learning and data analytics.
+
+### References
+
+[aws-vs-azure-vs-google-cloud](https://www.datamation.com/cloud/aws-vs-azure-vs-google-cloud/)

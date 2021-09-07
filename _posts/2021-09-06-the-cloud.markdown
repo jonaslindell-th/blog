@@ -13,7 +13,7 @@ The cloud can be described as a data centre, containing multiple racks of identi
 
 Cloud computing is possible due to virtualization, allowing the creation of a simulated computer that behaves as if it were a phyical computer with its own hardware.
 
-![alt text](/img/what-is-the-cloud.png "the cloud")
+![](/img/what-is-the-cloud.png)
 
 ### The three types of main service models in cloud computing
 

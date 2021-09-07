@@ -17,7 +17,7 @@ And on top of that you have your application which runs on the platform of your 
 
 Cloud computing is possible due to virtualization, allowing the creation of a simulated computer that behaves as if it were a physical computer with its own hardware and software which you can communicate with externally from your computer, laptop or phone.
 
-![cloudimage](/img/what-is-the-cloud.png)
+![cloudimage](./img/what-is-the-cloud.png)
 
 ### The three types of main service models in cloud computing
 

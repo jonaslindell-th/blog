@@ -60,45 +60,45 @@ Requires good speed internet and bandwidth to upload or download files.
 
 Comparing the price for a server running 24 hours a day for a year with minimum storage 2 CPUs, 8GB ram on a linux server in Europe.
 
-#### Azure
-
 ---
+
+#### Azure
 
 Region: North Europe
 OS: Linux: Ubuntu
 Spec: 2 CPUs 8GB RAM 50GB storage
 Monthly cost: $79.66
 
-#### AWS
-
 ---
+
+#### AWS
 
 Region: EU(Frankfurt)
 OS: Linux
 Spec: 2 CPUs 8GB RAM 80GB storage
 Monthly cost: $54.00
 
-#### Google Cloud
-
 ---
+
+#### Google Cloud
 
 Region: EU(Frankfurt)
 OS: Linux: Ubuntu
 Spec: 2 CPUs 8GB RAM 375GB ssd storage
 Monthly cost: $79.15
 
-#### Smaller providers Misshosting.se
-
 ---
+
+#### Smaller providers Misshosting.se
 
 Region: EU
 OS: Linux: Ubuntu
 Spec: 2 CPUs 8GB RAM 10GB storage
 Monthly cost: $83,57
 
-#### Summary
-
 ---
+
+#### Summary
 
 Although the pricing and spec doesn't differ much between the giants and the smaller cloud service providers, the smaller providers lack in support, developer tools and distribution tools.
 AWS focus on the private cloud rather than hybrid or private cloud, Amazon has a huge array of available services and a wide network of worldwide datacenters.

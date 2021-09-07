@@ -17,8 +17,6 @@ And on top of that you have your application which runs on the platform of your 
 
 Cloud computing is possible due to virtualization, allowing the creation of a simulated computer that behaves as if it were a physical computer with its own hardware and software which you can communicate with externally from your computer, laptop or phone.
 
-![cloudimage](/img/what-is-the-cloud.png)
-
 ### The three types of main service models in cloud computing
 
 1. Platform as a service (PaaS) is a cloud computing model where the provider delivers hardware and software tools to users over the internet.
@@ -100,4 +98,9 @@ Monthly cost: $83,57
 
 #### Summary
 
-Although the pricing and spec doesn't differ much between the giants and the smaller cloud service providers, the smaller providers lack in support, troubleshooting tools and distribution tools.
+---
+
+Although the pricing and spec doesn't differ much between the giants and the smaller cloud service providers, the smaller providers lack in support, developer tools and distribution tools.
+AWS focus on the private cloud rather than hybrid or private cloud, Amazon has a huge array of available services and a wide network of worldwide datacenters.
+Azure has its expertise in the hybrid cloud and is particularly strong in SaaS.
+Google cloud has it's expertise in AI, machine learning and data analytics.

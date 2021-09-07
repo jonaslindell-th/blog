@@ -120,5 +120,7 @@ Google cloud has it's expertise in AI, machine learning and data analytics.
 ### References
 
 [aws-vs-azure-vs-google-cloud](https://www.datamation.com/cloud/aws-vs-azure-vs-google-cloud/)
+
 [whatisthecloud](https://www.youtube.com/watch?v=BO6jvQ88ICQ)
+
 [what-is-iaas-saas-paas](https://medium.com/@vanshvarshney_/what-is-iaas-vs-saas-vs-paas-and-xaas-whats-the-difference-examples-ceadeee146e6)

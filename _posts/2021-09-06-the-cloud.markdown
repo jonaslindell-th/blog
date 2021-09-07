@@ -34,6 +34,8 @@ Cloud computing is possible due to virtualization, allowing the creation of a si
 
 #### A few pros using a cloud service
 
+---
+
 Using the cloud enables scaling your server to meet for your needs, perhaps your server is running slow due to a workload overload. If your servers were on-premises it would take a significally longer time to upgrade your system, waiting for new or more hardware and setting them up, with a cloud service you could improve your hardware with just a few clicks in the browser.
 
 It also offers flexible payment, meaning you only pay for what you use perhaps per hour or on a monthly.
@@ -46,6 +48,8 @@ Data backup and recovery, you can automatically backup all the data to the cloud
 
 #### A few cons using a cloud service
 
+---
+
 Ongoing costs can be a disadvantage in the long run.
 
 Security issues, your data may become vulnurable using a public cloud. Considering a costlier private or hybrid cloud option can keep critical business files on the private cloud secure.
@@ -53,3 +57,47 @@ Security issues, your data may become vulnurable using a public cloud. Consideri
 Some cloud service providers dont offer 24/7 support if you experience technical issues.
 
 Requires good speed internet and bandwidth to upload or download files.
+
+### Comparing costs between cloud service providers (Azure, AWS, Google Cloud)
+
+Comparing the price for a server running 24 hours a day for a year with minimum storage 2 CPUs, 8GB ram on a linux server in Europe.
+
+#### Azure
+
+---
+
+Region: North Europe
+OS: Linux: Ubuntu
+Spec: 2 CPUs 8GB RAM 50GB storage
+Monthly cost: $79.66
+
+#### AWS
+
+---
+
+Region: EU(Frankfurt)
+OS: Linux
+Spec: 2 CPUs 8GB RAM 80GB storage
+Monthly cost: $54.00
+
+#### Google Cloud
+
+---
+
+Region: EU(Frankfurt)
+OS: Linux: Ubuntu
+Spec: 2 CPUs 8GB RAM 375GB ssd storage
+Monthly cost: $79.15
+
+#### Smaller providers Misshosting.se
+
+---
+
+Region: EU
+OS: Linux: Ubuntu
+Spec: 2 CPUs 8GB RAM 10GB storage
+Monthly cost: $83,57
+
+#### Summary
+
+Although the pricing and spec doesn't differ much between the giants and the smaller cloud service providers, the smaller providers lack in support, troubleshooting tools and distribution tools.

@@ -17,7 +17,7 @@ And on top of that you have your application which runs on the platform of your 
 
 Cloud computing is possible due to virtualization, allowing the creation of a simulated computer that behaves as if it were a physical computer with its own hardware and software which you can communicate with externally from your computer, laptop or phone.
 
-![cloudimage](./img/what-is-the-cloud.png)
+![cloudimage](/img/what-is-the-cloud.png)
 
 ### The three types of main service models in cloud computing
 
@@ -41,3 +41,15 @@ It also offers flexible payment, meaning you only pay for what you use perhaps p
 A cloud service lets your company focus on it's main purpose, leaving the server, hardware, tools, logs and maintainance to the cloud provider for you to choose and use as you wish.
 
 Experimenting with hardware is almost free.
+
+Data backup and recovery, you can automatically backup all the data to the cloud on a regular basis.
+
+#### A few cons using a cloud service
+
+Ongoing costs can be a disadvantage in the long run.
+
+Security issues, your data may become vulnurable using a public cloud. Considering a costlier private or hybrid cloud option can keep critical business files on the private cloud secure.
+
+Some cloud service providers dont offer 24/7 support if you experience technical issues.
+
+Requires good speed internet and bandwidth to upload or download files.

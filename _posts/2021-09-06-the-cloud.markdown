@@ -65,8 +65,11 @@ Comparing the price for a server running 24 hours a day for a year with minimum 
 #### Azure
 
 Region: North Europe
+
 OS: Linux: Ubuntu
+
 Spec: 2 CPUs 8GB RAM 50GB storage
+
 Monthly cost: $79.66
 
 ---
@@ -74,8 +77,11 @@ Monthly cost: $79.66
 #### AWS
 
 Region: EU(Frankfurt)
+
 OS: Linux
+
 Spec: 2 CPUs 8GB RAM 80GB storage
+
 Monthly cost: $54.00
 
 ---
@@ -83,8 +89,11 @@ Monthly cost: $54.00
 #### Google Cloud
 
 Region: EU(Frankfurt)
+
 OS: Linux: Ubuntu
+
 Spec: 2 CPUs 8GB RAM 375GB ssd storage
+
 Monthly cost: $79.15
 
 ---
@@ -92,8 +101,11 @@ Monthly cost: $79.15
 #### Smaller providers Misshosting.se
 
 Region: EU
+
 OS: Linux: Ubuntu
+
 Spec: 2 CPUs 8GB RAM 10GB storage
+
 Monthly cost: $83,57
 
 ---

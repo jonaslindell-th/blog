@@ -5,6 +5,12 @@ date: 2021-09-07 13:23:41 +0200
 categories: jekyll update
 ---
 
-## Notes from my first lesson in Cloud Services
+## My first lecture in cloud servies
 
-### What is the cloud?
+### A simple definition of the cloud
+
+The cloud can be described as a data centre, containing multiple racks of identical hardware where deployments, updates, investigations and management processes are automated. The hardware contains software and databases that runs servers which can be accessed over the internet. A benefit of using cloud computing, users and companies do not have to manage physical servers themselves or run software applications on their own machines.
+
+Cloud computing is possible due to virtualization, allowing the creation of a simulated computer that behaves as if it were a phyical computer with its own hardware.
+
+### The three types of main service models in cloud computing

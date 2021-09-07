@@ -13,4 +13,15 @@ The cloud can be described as a data centre, containing multiple racks of identi
 
 Cloud computing is possible due to virtualization, allowing the creation of a simulated computer that behaves as if it were a phyical computer with its own hardware.
 
+![alt text](img\what-is-the-cloud.png "the cloud")
+
 ### The three types of main service models in cloud computing
+
+1. Platform as a service (PaaS) is a third-party cloud computing model where the provider delivers hardware and software tools to users over the internet.
+   Most likely these tools are used for app development. The PaaS provider hosts the hardware and software on its own infrastructure.
+
+2. Infrastructure as a service (IaaS) is a type of cloud computing service that offers essential compute, storage, and networking resources on demand, on a pay-as-you-go basis. IaaS lets you bypass the cost and complexity of buying and managing physical servers and datacenter infrastructure.
+
+3. Software as a service (SaaS) allows users to connect to and use cloud-based apps over the Internet. Common examples are email, calendaring, and office tools like Microsoft office 365.
+
+   SaaS provides a complete software solution that you purchase on a pay-as-you-go basis from a cloud service provider. You rent the use of an app for your organization, and your users connect to it over the Internet, usually with a web browser. All of the underlying infrastructure, middleware, app software, and app data are located in the service provider’s data center. The service provider manages the hardware and software, and with the appropriate service agreement, will ensure the availability and the security of the app and your data as well. SaaS allows your organization to get quickly up and running with an app at minimal upfront cost.

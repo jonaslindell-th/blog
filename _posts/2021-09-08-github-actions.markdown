@@ -5,9 +5,9 @@ date: 2021-09-08 20:15:00 +0200
 categories: jekyll update
 ---
 
-## Introduction to Github Actions Continuous Integration (CI)
+## Introduction to Github Actions, Continuous Integration (CI)
 
-===
+---
 
 ### What is a CI Pipeline?
 

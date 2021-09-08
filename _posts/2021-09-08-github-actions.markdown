@@ -9,6 +9,8 @@ categories: jekyll update
 
 ---
 
+<br/><br/>
+
 ### What is a CI Pipeline?
 
 ---

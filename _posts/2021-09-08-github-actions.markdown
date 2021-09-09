@@ -38,6 +38,13 @@ Once I have my yaml file, I start off by naming my workflow, this will be displa
 name: workflow demonstration
 ```
 
+The next step is to add the "on:" event which specifies on what event github should trigger the workflow.
+
+```yaml
+name: workflow demonstration
+on: [push]
+```
+
 ### References
 
 ---

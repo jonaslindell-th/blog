@@ -45,7 +45,7 @@ name: workflow demonstration
 on: [push]
 ```
 
-Now I have to specify what jobs and steps to run once this event is triggered. In my case I choose to build the application and run my unit tests, I find: "Verify build and run tests" a suitable name for this step.
+Now I have to specify what jobs and steps to run once this event is triggered. In my case I choose to build the application and run my unit tests, I find: "Verify build and run tests" a suitable name for this job.
 
 ```yaml
 name: workflow demonstration
@@ -53,6 +53,17 @@ on: [push]
 jobs:
   build:
     name: Verify build and run tests
+```
+
+Next my workflow needs to know what virtual enviroment to use to run this is, in my case i prefer to use linux ubuntu since performence is slightly faster.
+
+```yaml
+name: workflow demonstration
+on: [push]
+jobs:
+  build:
+    name: Verify build and run tests
+    runs-on: ubuntu-latest
 ```
 
 ### References

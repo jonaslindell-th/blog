@@ -43,7 +43,3 @@ name: workflow demonstration
 ---
 
 [semaphoreci-continuous-integration](https://semaphoreci.com/continuous-integration)
-
-```
-
-```

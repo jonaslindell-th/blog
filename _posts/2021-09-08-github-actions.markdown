@@ -16,7 +16,7 @@ categories: jekyll update
 ---
 
 <br/><br/>
-CI is a practice which facilitates merging code to the main branch or commiting code to your branch continuously. By introducing a CI pipeline in Github actions for example, a commit to your branch or merge attempt to the main branch (depending on what triggers you choose to use), triggers a series of automated steps. These steps may involve running the code build, unit tests, code analysis and more.
+CI is a practice which facilitates merging code to the main branch and/or commiting code to your branch continuously. By introducing a CI pipeline in Github actions for example, a commit to your branch or merge attempt to the main branch (depending on what triggers you choose to use), triggers a series of automated steps. These steps may involve running the code build, unit tests, code analysis and more.
 
 If a new branch were to pass all of the automated steps in the pipeline without any errors, a merge to the main branch is possible and may continue to the next stage e.g. deployment to the cloud. Should any of the steps fail, the development team may go through the error report, so that they may fix the issues and the merge attempt is prevented from progressing to any further stages.
 
@@ -24,7 +24,7 @@ As to describe this proccess, the pipeline acts as a safety net between commits 
 
 ### What benefits does CI bring to the table?
 
-By aiming at merging to the main branch often and in short iterations, running automated builds and tests continously, developers can catch any errors early in the development stage. Reducing time spent trying to find and fix bugs as well as preventing them from reaching deployment.
+By aiming at merging to the main branch often and in short iterations, running automated builds and tests continously through out development, developers can catch any errors early in the development stage. Reducing time spent trying to find and fix bugs as well as preventing them from reaching deployment.
 
 ### How I implemented a CI pipeline into an existing project
 
@@ -85,8 +85,28 @@ jobs:
           dotnet-version: "5.0.x"
 ```
 
+Now I am all set up to continue to the last two steps, running the build and unit tests. I simply tell these steps to run a dotnet build and dotnet test against the virtual environment and by providing the specific path each step should by running in. Now the final result of my workflow file end up looking like this:
+
+```yaml
+name: workflow demonstration
+on: [push]
+jobs:
+  build:
+    name: Run build and tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: "5.0.x"
+      - run: dotnet build ./Source/SpacePark.sln
+      - run: dotnet test ./Source/RestApiTests
+```
+
 ### References
 
 ---
 
 [semaphoreci-continuous-integration](https://semaphoreci.com/continuous-integration)
+[docs.github/workflow-syntax-for-github-acitons](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)

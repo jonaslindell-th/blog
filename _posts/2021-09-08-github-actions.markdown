@@ -45,6 +45,16 @@ name: workflow demonstration
 on: [push]
 ```
 
+Now I have to specify what jobs and steps to run once this event is triggered. In my case I choose to build the application and run my unit tests, I find: "Verify build and run tests" a suitable name for this step.
+
+```yaml
+name: workflow demonstration
+on: [push]
+jobs:
+  build:
+    name: Verify build and run tests
+```
+
 ### References
 
 ---

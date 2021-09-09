@@ -34,7 +34,7 @@ As a first step, a .github directory is needed in my repository, this is where a
 
 Once I have my yaml file, I start off by naming my workflow, this will be displayed in my repository's actions page once I trigger the workflow.
 
-```
+```yaml
 name: workflow demonstration
 ```
 

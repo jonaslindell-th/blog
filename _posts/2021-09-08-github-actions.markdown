@@ -66,7 +66,7 @@ jobs:
     runs-on: ubuntu-latest
 ```
 
-Now I have to consider what steps I need in order to run the build and to run the unit tests. In my case in order to run a build I need access to the code, which can be done by using the - uses: actions/checkout@v2 statement, this step clones the code from the repository to the virtual environment. Since this application is running on the .NET framework I need to make sure the virtual environment has that installed aswell by using the - uses: actions/setup-dotnet@v1 statement and specifying a dotnet version to match this project.
+Now I have to consider what steps I need in order to run the build and to run the unit tests. In my case in order to run a build I need access to the code, which can be done by using the - uses: actions/checkout@v2 statement, this step clones the code from the repository to the virtual environment. Since this application is running on the .NET framework I need to make sure the virtual environment has that installed aswell, by using the - uses: actions/setup-dotnet@v1 statement and specifying a dotnet version to match this projects dotnet version.
 
 My yaml file now looks like this:
 
@@ -110,7 +110,7 @@ My automated workflow now triggers everytime I make a commit in this repository,
 
 ---
 
-By implementing a CI pipeline to my repository, facilitates developing new features to my projects by catching errors at an early stage, reducing time spent trying to locate it. I nice feature Github Actions use, is notifying any occuring errors by email if I happen to overlook the latest commits workflow result. Although, this feature may also be irritating while getting stuck on an error, by flooding my mail with notifications.
+By implementing a CI pipeline to my repository, facilitates developing new features to my projects by catching errors at an early stage, reducing time spent trying to locate it. A nice feature Github Actions use, is notifying any occuring errors by email if I happen to overlook the latest commits workflow result. Although, this feature may also be irritating when getting stuck on an error, by flooding my mail with notifications.
 
 ### References
 

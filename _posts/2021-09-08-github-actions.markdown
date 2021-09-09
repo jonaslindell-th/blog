@@ -26,8 +26,24 @@ As to describe this proccess, the pipeline acts as a safety net between commits 
 
 By aiming at merging to the main branch often and in short iterations, running automated builds and tests continously, developers can catch any errors early in the development stage. Reducing time spent trying to find and fix bugs as well as preventing them from reaching deployment.
 
+### How I implemented a CI pipeline into a existing project
+
+---
+
+As a first step, a .github directory is needed in my repository, this is where all Github specific files should be located. In this directory I introduce a workflows directory, this directory should contain my yaml file, what I name this file apart from .yaml is not important.
+
+Once I have my yaml file, I start off by naming my workflow, this will be displayed in my repository's actions page once I trigger the workflow.
+
+```
+name: workflow demonstration
+```
+
 ### References
 
 ---
 
 [semaphoreci-continuous-integration](https://semaphoreci.com/continuous-integration)
+
+```
+
+```

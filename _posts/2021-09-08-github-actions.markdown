@@ -104,9 +104,18 @@ jobs:
       - run: dotnet test ./Source/RestApiTests
 ```
 
+My automated workflow now triggers everytime I make a commit in this repository, running the steps and notifies me if any errors occurs in either the build or any of the unit tests.
+
+### Conclusion
+
+---
+
+By implementing a CI pipeline to my repository, facilitates developing new features to my projects by catching errors at an early stage, reducing time spent trying to locate it. I nice feature Github Actions use, is notifying any occuring errors by email if I happen to overlook the latest commits workflow result. Although, this feature may also be irritating while getting stuck on an error, by flooding my mail with notifications.
+
 ### References
 
 ---
 
 [semaphoreci-continuous-integration](https://semaphoreci.com/continuous-integration)
+
 [docs.github/workflow-syntax-for-github-acitons](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)

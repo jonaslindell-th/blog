@@ -66,6 +66,25 @@ jobs:
     runs-on: ubuntu-latest
 ```
 
+Now I have to consider what steps I need in order to run the build and to run the unit tests. In my case in order to run a build I need access to the code, which can be done by using the - uses: actions/checkout@v2 statement, this step clones the code from the repository to the virtual environment. Since this application is running on the .NET framework I need to make sure the virtual environment has that installed aswell by using the - uses: actions/setup-dotnet@v1 statement and specifying a dotnet version to match this project.
+
+My yaml file now looks like this:
+
+```yaml
+name: workflow demonstration
+on: [push]
+jobs:
+  build:
+    name: Run build and tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: "5.0.x"
+```
+
 ### References
 
 ---
